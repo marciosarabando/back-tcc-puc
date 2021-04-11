@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\TCC.INSPECAO.Domain\TCC.INSPECAO.Domain.csproj"/>
+    <ProjectReference Include="..\TCC.INSPECAO.Infra\TCC.INSPECAO.Infra.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3"/>
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3"/>
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3"/>
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="5.6.3"/>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="4.1.1"/>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.11"/>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0"/>
+    
+    <!--
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.11"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.11"/>
+    -->
+    
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.11"/>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+</Project>
